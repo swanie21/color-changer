@@ -1,0 +1,30 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  color: white;
+  background: #E5B6D5;
+  border-bottom: 8px solid #B2479A;
+  border-left: 8px solid #CC7FB5;
+  border-right: 8px solid #CC7FB5;
+  border-top: 8px solid #B2479A;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-right: 35px;
+  width: 160px;
+  padding: 15px;
+}
+
+.btn:hover {
+  background: #B2479A;
+  border-bottom: 8px solid #CC7FB5;
+  border-left: 8px solid #E5B6D5;
+  border-right: 8px solid #E5B6D5;
+  border-top: 8px solid #CC7FB5;
+}
